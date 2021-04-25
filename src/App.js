@@ -1,9 +1,9 @@
 import React from "react";
 import "./App.css";
 
-const PROMPT = "Kat, please answer the following question:";
+const PROMPT = "J, please answer the following question:";
 
-const getAnswer = (answer) => answer || "Error - Stupid question detected!";
+const getAnswer = (answer) => answer || "Error - Stupid person detected!";
 
 const App = () => {
   const [question, setQuestion] = React.useState("");
@@ -42,12 +42,14 @@ const App = () => {
         className="App-input"
         value={question}
         onChange={handleQuestionChange}
+        disabled={isAnswerVisible}
       />
       <p>Now, write "{PROMPT}"</p>
       <input
         className="App-input"
         value={prompt}
         onChange={handlePromptChange}
+        disabled={isAnswerVisible}
       />
       {!isAnswerVisible ? (
         <button

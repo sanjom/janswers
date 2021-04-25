@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/janswers/static/css/main.cc12b8ad.chunk.css",
-    "main.js": "/janswers/static/js/main.615829fb.chunk.js",
-    "main.js.map": "/janswers/static/js/main.615829fb.chunk.js.map",
+    "main.js": "/janswers/static/js/main.8ebd66e0.chunk.js",
+    "main.js.map": "/janswers/static/js/main.8ebd66e0.chunk.js.map",
     "runtime-main.js": "/janswers/static/js/runtime-main.7af749f2.js",
     "runtime-main.js.map": "/janswers/static/js/runtime-main.7af749f2.js.map",
     "static/js/2.35b3ed9c.chunk.js": "/janswers/static/js/2.35b3ed9c.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.7af749f2.js",
     "static/js/2.35b3ed9c.chunk.js",
     "static/css/main.cc12b8ad.chunk.css",
-    "static/js/main.615829fb.chunk.js"
+    "static/js/main.8ebd66e0.chunk.js"
   ]
 }
